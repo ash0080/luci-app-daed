@@ -11,8 +11,6 @@ jobs:
       matrix:
         arch:
           - aarch64_generic    
-          - i386_pentium4
-          - x86_64
         sdk:
           - openwrt-22.03
 
