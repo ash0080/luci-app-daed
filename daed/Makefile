@@ -68,7 +68,7 @@ endef
 
 WEB_FILE:=$(PKG_NAME)-web-$(PKG_VERSION).zip
 define Download/daed-web
-        URL:=https://github.com/daeuniverse/daed/actions/runs/10915731851/artifacts/1946051075
+        URL:=https://raw.githubusercontent.com/ash0080/luci-app-daed/refs/heads/master/
 	URL_FILE:=web.zip
 	FILE:=$(WEB_FILE)
 	HASH:=skip
